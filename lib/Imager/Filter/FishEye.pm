@@ -4,7 +4,7 @@ use warnings;
 use 5.00800;
 
 BEGIN {
-    our $VERSION = "0.01";
+    our $VERSION = "0.02";
     eval {
         require XSLoader;
         XSLoader::load( 'Imager::Filter::FishEye', $VERSION );
