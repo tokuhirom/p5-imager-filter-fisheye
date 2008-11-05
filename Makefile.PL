@@ -2,8 +2,8 @@ use inc::Module::Install;
 name 'Imager-Filter-FishEye';
 all_from 'lib/Imager/Filter/FishEye.pm';
 
-configure_requires  'Imager'           => '0.55';
-requires 'Imager' => 0.55;
+configure_requires  'Imager'           => '0.65';
+requires 'Imager' => 0.65;
 
 tests 't/*.t t/*/*.t t/*/*/*.t t/*/*/*/*.t';
 test_requires 'Test::More';
