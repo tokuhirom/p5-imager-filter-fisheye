@@ -7,6 +7,7 @@ requires 'Imager' => 0.65;
 
 tests 't/*.t t/*/*.t t/*/*/*.t t/*/*/*/*.t';
 test_requires 'Test::More';
+auto_set_repository();
 author_tests 'xt';
 WriteAll;
 
