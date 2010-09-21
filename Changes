@@ -1,5 +1,9 @@
 Revision history for Perl extension Imager::Filter::FishEye
 
+0.04
+
+        - fixed manifest file
+
 0.03
 
         - modernize package
