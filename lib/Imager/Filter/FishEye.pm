@@ -1,21 +1,12 @@
 package Imager::Filter::FishEye;
 use strict;
 use warnings;
-use 5.00800;
+use 5.008001;
 
 BEGIN {
     our $VERSION = "0.02";
-    eval {
-        require XSLoader;
-        XSLoader::load( 'Imager::Filter::FishEye', $VERSION );
-        1;
-    }
-    or do {
-        our @ISA;
-        require DynaLoader;
-        push @ISA, 'DynaLoader';
-        Imager::Filter::FishEye->bootstrap($VERSION);
-    };
+    require XSLoader;
+    XSLoader::load( 'Imager::Filter::FishEye', $VERSION );
 }
 
 my %defaults = ( d => 40, r => -1 );
