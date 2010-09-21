@@ -8,7 +8,6 @@ requires 'Imager' => 0.65;
 tests 't/*.t t/*/*.t t/*/*/*.t t/*/*/*/*.t';
 test_requires 'Test::More';
 author_tests 'xt';
-auto_include;
 WriteAll;
 
 sub MY::post_constants {
