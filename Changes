@@ -1,5 +1,9 @@
 Revision history for Perl extension Imager::Filter::FishEye
 
+0.03
+
+        - modernize package
+
 0.02
 
         - remove cutoff feature

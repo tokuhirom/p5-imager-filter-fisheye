@@ -18,3 +18,8 @@
 ^\.shipit$
 \.sw[po]$
 ^\.git/
+^Imager-Filter-FishEye-[0-9.]+/
+\.o(?:bj)?$
+\.bs$
+\.def$
+^FishEye.c$
