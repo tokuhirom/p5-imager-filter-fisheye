@@ -8,3 +8,4 @@ MANIFEST
 Makefile.old
 nytprof.out
 .testenv/
+FishEye.c
